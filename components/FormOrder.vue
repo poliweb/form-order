@@ -13,11 +13,11 @@
     <div class="lg:w-1/2 md:w-full  bg-white flex flex-col md:ml-auto w-full md:py-0 mt-0 md:mt-0">
       <h2 class="text-gray-900 text-lg mb-1 text-3xl font-extrabold text-center title-font py-7 sm:px-5 md:px-10 bg-title">Сделай шаг к выздоровлению</h2>
       <div class="inputGrups">
-        <div class="relative mb-4">
+        <div class="relative mb-4 text-left">
           <label for="name" class="leading-7 text-xs font-extrabold uppercase  text-gray-600">Ваше <span class="green">имя</span></label>
           <input type="text" id="name" name="name" placeholder="Алексей" class="w-full inputForm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-sm outline-none text-gray-700 py-4 px-5 leading-5 transition-colors duration-200 ease-in-out">
         </div>
-        <div class="relative mb-4">
+        <div class="relative mb-4 text-left">
           <label for="tel" class="leading-7 text-xs font-extrabold uppercase text-gray-600">Ваш <span class="green">телефон</span></label>
           <div class="flex justify-between">
           <input type="tel" id="phone" name="phone" placeholder="+7 (123) 456 78-90" class="w-full inputForm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-sm outline-none text-gray-700 py-4 px-5 leading-5 transition-colors duration-200 ease-in-out">

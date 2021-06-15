@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
-    <div>
-      <FormOrder />
-    </div>
+
+  <div>
+    <FormOrder />
   </div>
+
 </template>
 
 <script>
