@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="text-gray-600 body-font relative">
-  <div class="container px-0 sm:py-16 md:px-5 py-24 mx-auto flex sm:flex-col md:flex-row  flex-wrap max-w-6xl">
+      <div class="container px-0 sm:py-16 md:px-5 py-24 mx-auto flex sm:flex-col md:flex-row  flex-wrap max-w-6xl">
     <div class="md:hidden flex flex-row justify-between bg-white w-full pt-10 pb-2.5 px-5">
         <span class="text-lg font-bold">Reduslim</span>
         <span class="text-lg font-bold">ECO</span>
@@ -11,7 +11,10 @@
       <img src="~/assets/img/fotoFormsMobilka.svg" alt="" class="w-full md:hidden">
     </div>
     <div class="lg:w-1/2 md:w-full  bg-white flex flex-col md:ml-auto w-full md:py-0 mt-0 md:mt-0">
-      <h2 class="text-gray-900 text-lg mb-1 text-3xl font-extrabold text-center title-font py-7 sm:px-5 md:px-10 bg-title">Сделай шаг к выздоровлению</h2>
+      <div class="py-7 sm:px-5 md:px-10  mb-3  bg-title">
+        <h2 class="text-gray-900 text-lg text-3xl font-extrabold text-center title-font">Сделай шаг к выздоровлению</h2>
+      </div>
+
       <div class="inputGrups">
         <div class="relative mb-4 text-left">
           <label for="name" class="leading-7 text-xs font-extrabold uppercase  text-gray-600">Ваше <span class="green">имя</span></label>
@@ -24,14 +27,10 @@
           <SelectForm/>
           </div>
         </div>
-
-            <!-- ========================= -->
-
-            <!-- ========================= -->
-
         <button class="w-full mt-6 inline-flex items-center justify-center gap-2  text-white bg-green border-0 py-2 px-6 focus:outline-none hover:bg-green-500 rounded text-lg">Заказать <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-</svg></button>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </button>
         <div class="flex flex-row justify-center items-center md:hidden h-10 mt-7">
           <div class="text-sm font-bold">Trusted</div>
           <div class="w-3 h-4 mx-5"><img src="~/assets/img/lock.svg" alt=""></div>
@@ -40,8 +39,8 @@
         <!-- <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p> -->
       </div>
     </div>
-  </div>
-</section>
+      </div>
+    </section>
   </div>
 </template>
 
